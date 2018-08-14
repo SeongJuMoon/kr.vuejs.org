@@ -30,7 +30,7 @@ Vue.component('my-component', {
 })
 ```
 
-<p class="tip">Vue는 사용자 지정 태그 이름에 대해 [W3C 규칙](http://www.w3.org/TR/custom-elements/#concepts)을 적용하지 않습니다 (모두 소문자이어야 하고 하이픈을 포함해야합니다). 그러나 이 규칙을 따르는 것이 좋습니다.</p>
+<p class="tip">Vue는 사용자 지정 태그 이름에 대해 [W3C 규칙](http://www.w3.org/TR/custom-elements/#concepts)을 적용하지 않습니다 (모두 소문자이어야 하고 하이픈을 포함해야합니다). 그러니 여러분들은 이 규칙을 따르는 것이 좋습니다.</p>
 
 일단 등록되면, 컴포넌트는 인스턴스의 템플릿에서 커스텀 엘리먼트,`<my-component></my-component>`로 사용할 수 있습니다. 루트 Vue 인스턴스를 인스턴스화하기 **전에** 컴포넌트가 등록되어 있는지 확인하십시오. 전체 예제는 다음과 같습니다.
 
